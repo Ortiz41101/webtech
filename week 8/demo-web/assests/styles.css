@@ -1,0 +1,87 @@
+.main-header {
+  color: blue;
+  padding: 30px;
+  border: 10px solid pink;
+}
+
+.header-container {
+  border: 5px solid red;
+  padding: 10px;
+}
+
+.aside-container {
+  border: 5px solid blue;
+  padding: 10px;
+}
+
+.article-container {
+  border: 5px solid green;
+  padding: 10px;
+}
+
+.footer-container {
+  border: 5px solid brown;
+  padding: 10px;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: red;
+  background-color: green;
+}
+
+a:active {
+  color: orange;
+}
+
+li:first-child {
+  color: blue;
+}
+
+li:nth-child(even) {
+  color: blueviolet;
+}
+
+/* article p:nth-last-child(1) {
+  color: red;
+} */
+
+h1::first-letter {
+  color: green;
+}
+
+h1::after {
+  content: "TOP";
+  background-color: orange;
+  font-size: 11px;
+  font-weight: bold;
+  /* display: inline-block; */
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+h1 {
+  background-color: plum;
+  padding: 20px 10px;
+  margin: 5px 10px;
+  /* float: left; */
+}
+
+aside {
+  background-color: aqua;
+  /* border-top: 100px solid red; */
+}
+
+p::first-line {
+  color: rosybrown;
+}

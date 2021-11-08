@@ -1,0 +1,41 @@
+
+13_1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Line
+  rotate: false
+  xy: 408, 213
+  size: 30, 275
+  orig: 30, 275
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 213
+  size: 201, 275
+  orig: 201, 275
+  offset: 0, 0
+  index: -1
+body_blur
+  rotate: false
+  xy: 279, 2
+  size: 153, 209
+  orig: 153, 209
+  offset: 0, 0
+  index: -1
+body_glow
+  rotate: false
+  xy: 205, 213
+  size: 201, 275
+  orig: 201, 275
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 10
+  size: 201, 275
+  orig: 201, 275
+  offset: 0, 0
+  index: -1

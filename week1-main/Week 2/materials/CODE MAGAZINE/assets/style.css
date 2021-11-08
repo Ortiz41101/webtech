@@ -1,0 +1,86 @@
+header{
+  color: rgb(37, 146, 166);
+  border-top:5px solid rgb(20, 153, 174);
+  background-color:rgba(236, 232, 232, 0.329) ;
+  padding: 10px 40px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.title{
+   color: rgb(37, 146, 166);
+
+}
+
+.header2{
+  color: rgb(37, 146, 166);
+}
+
+.title{
+  background-color: orange;
+  position: relative;
+  width: 560px;
+}
+.title::after{
+  content: "TOP";
+  background-color: #ffe70e;
+  font-size: 9px;
+  font-weight:900;
+  display: inline-block;
+  padding: 5px 5px;
+  position: absolute;
+  top: 150;
+  right: -25px;
+  
+}
+
+a { 
+   color: rgb(37, 146, 166);
+ } 
+
+a:active {
+ background-color: blue;
+}
+
+a:visited {
+ color: red;
+}
+
+a:hover {
+  font-size: x-large; 
+  text-decoration: underline;
+  color: yellow
+  
+}
+
+aside{
+  background-color:rgba(236, 232, 232, 0.329) ;
+  border-top:5px solid rgb(20, 153, 174);
+  padding: 10px 40px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button{
+  margin-left: 1000px;
+}
+
+button:visited{
+  background-color: blueviolet;
+}
+
+button:active{
+  background-color: blue;
+}
+
+button:hover{
+  background-color: aqua;
+}
